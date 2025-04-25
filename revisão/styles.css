@@ -1,0 +1,171 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+
+.menu_container{
+    width: 100%;
+    padding: 15px;
+    background-color: lightblue;
+
+}
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.logo{
+    float: left;
+    padding: 15px;
+    height: 110px;
+}
+
+.list_container{
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+
+.list_item{
+    padding: 15px;
+}
+
+.list_item a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.list_item a:hover{
+    color: rgba(108, 12, 163, 0.733);
+}
+
+@media (max-width : 768px) {
+
+.list_container {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.list_container.active{
+    display: flex;
+}
+
+.sandwish_menu {
+    display: block;
+}
+
+.menu_container{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo {
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
